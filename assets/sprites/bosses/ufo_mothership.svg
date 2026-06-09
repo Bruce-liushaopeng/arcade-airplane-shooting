@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="112" viewBox="0 0 190 112" shape-rendering="crispEdges">
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <ellipse cx="95" cy="57" rx="83" ry="28" fill="#3b1b55"/>
+  <path d="M22 57h146v24H22z" fill="#8546d7"/>
+  <path d="M58 56q37-56 74 0z" fill="#b982ff"/>
+  <path d="M72 39h46v16H72z" fill="#5cffd2" filter="url(#glow)"/>
+  <path d="M34 78h22v10H34zM84 83h22v10H84zM134 78h22v10h-22z" fill="#ffd45a" filter="url(#glow)"/>
+  <path d="M11 62h26v12H11zM153 62h26v12h-26z" fill="#22102f"/>
+
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="126" height="104" viewBox="0 0 126 104" shape-rendering="crispEdges">
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <path d="M60 4h6l16 36 38 34-7 17-43-15-5 22h-4l-5-22-43 15-7-17 38-34z" fill="#2a2638"/>
+  <path d="M63 8l12 40-12 47-12-47z" fill="#ffc34d"/>
+  <path d="M53 24h20l-4 26H57z" fill="#ffffff"/>
+  <path d="M13 75l41-13-3 12-37 14zM113 75L72 62l3 12 37 14z" fill="#ff7348"/>
+  <path d="M43 80h40v13H43z" fill="#1b1f2c"/>
+
+</svg>
